@@ -15,8 +15,6 @@ dubbo:
   application:
     qos:
       port: 11999
-      enable: true　
+      enable: true
       accept-foreign-ip: false
 
-server:
-  port: 9999

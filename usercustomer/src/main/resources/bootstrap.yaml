@@ -13,3 +13,6 @@ spring:
 ribbon:
   nacos:
     enabled: true
+
+server:
+  port: 9999

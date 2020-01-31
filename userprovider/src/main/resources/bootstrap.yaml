@@ -1,22 +1,3 @@
-dubbo:
-  scan:
-    # dubbo 服务扫描基准包
-    base-packages: com.alibaba.cloud.dubbo.bootstrap
-  protocol:
-    # dubbo 协议
-    name: dubbo
-    # dubbo 协议端口（ -1 表示自增端口，从 20880 开始）
-    port: 19998
-  registry:
-    # 挂载到 Spring Cloud 注册中心
-    address: spring-cloud://localhost
-  application:
-    qos:
-      port: 11998
-      enable: true　
-      accept-foreign-ip: false
-
-
 spring:
   application:
     # Dubbo 应用名称
